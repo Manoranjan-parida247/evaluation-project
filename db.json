@@ -1,0 +1,834 @@
+{
+  "floorRoomData": [
+    {
+      "floorNo": 1,
+      "noOfRooms": 4,
+      "roomDto": [
+        {
+          "id": 1,
+          "floorNo": 1,
+          "roomNumber": "101",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "TechNova Solutions",
+            "companyPhone": "9811122233",
+            "companyEmail": "contact@technova.com",
+            "fromDate": "2024-01-10",
+            "toDate": "2024-02-10"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 10000,
+            "maintenanceCost": 1000,
+            "securityDeposit": 20000,
+            "advancePayment": 5000
+          }
+        },
+        {
+          "id": 2,
+          "floorNo": 1,
+          "roomNumber": "102",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 2,
+          "assignment": {
+            "companyName": "Alpha Enterprises",
+            "companyPhone": "9822233344",
+            "companyEmail": "info@alphaent.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 3000,
+            "maintenanceCost": 100,
+            "securityDeposit": 450,
+            "advancePayment": null
+          }
+        },
+        {
+          "id": 3,
+          "floorNo": 1,
+          "roomNumber": "103",
+          "isActive": true,
+          "isAvailable": true,
+          "roomTypeId": 3,
+          "assignment": null,
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 2000,
+            "maintenanceCost": 50,
+            "securityDeposit": 300,
+            "advancePayment": 1000
+          }
+        },
+        {
+          "id": 4,
+          "floorNo": 1,
+          "roomNumber": "104",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "Beta Corp",
+            "companyPhone": "9833344455",
+            "companyEmail": "contact@betacorp.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 15000,
+            "maintenanceCost": 1500,
+            "securityDeposit": 30000,
+            "advancePayment": 7500
+          }
+        }
+      ],
+      "id": "cd2d"
+    },
+    {
+      "floorNo": 2,
+      "noOfRooms": 5,
+      "roomDto": [
+        {
+          "id": 5,
+          "floorNo": 2,
+          "roomNumber": "201",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "Gamma Industries",
+            "companyPhone": "9844455566",
+            "companyEmail": "info@gammaindustries.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 10000,
+            "maintenanceCost": 1000,
+            "securityDeposit": 20000,
+            "advancePayment": 5000
+          }
+        },
+        {
+          "id": 6,
+          "floorNo": 2,
+          "roomNumber": "202",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 2,
+          "assignment": {
+            "companyName": "Delta Tech",
+            "companyPhone": "9855566677",
+            "companyEmail": "contact@deltatech.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 3000,
+            "maintenanceCost": 100,
+            "securityDeposit": 450,
+            "advancePayment": null
+          }
+        },
+        {
+          "id": 7,
+          "floorNo": 2,
+          "roomNumber": "203",
+          "isActive": true,
+          "isAvailable": true,
+          "roomTypeId": 3,
+          "assignment": null,
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 2000,
+            "maintenanceCost": 50,
+            "securityDeposit": 300,
+            "advancePayment": 1000
+          }
+        },
+        {
+          "id": 8,
+          "floorNo": 2,
+          "roomNumber": "204",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 2,
+          "assignment": {
+            "companyName": "Epsilon Systems",
+            "companyPhone": "9866677788",
+            "companyEmail": "info@epsilonsystems.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 12000,
+            "maintenanceCost": 1200,
+            "securityDeposit": 25000,
+            "advancePayment": 6000
+          }
+        },
+        {
+          "id": 9,
+          "floorNo": 2,
+          "roomNumber": "205",
+          "isActive": false,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Zeta Solutions",
+            "companyPhone": "9877788899",
+            "companyEmail": "contact@zetasolutions.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 2000,
+            "maintenanceCost": 50,
+            "securityDeposit": 300,
+            "advancePayment": 1000
+          }
+        }
+      ],
+      "id": "66d1"
+    },
+    {
+      "floorNo": 3,
+      "noOfRooms": 6,
+      "roomDto": [
+        {
+          "id": 10,
+          "floorNo": 3,
+          "roomNumber": "301",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Eta Consulting",
+            "companyPhone": "9888899900",
+            "companyEmail": "info@etaconsulting.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": 101,
+            "rentPrice": 18000,
+            "maintenanceCost": 1800,
+            "securityDeposit": 35000,
+            "advancePayment": 9000
+          }
+        },
+        {
+          "id": 11,
+          "floorNo": 3,
+          "roomNumber": "302",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "Theta Group",
+            "companyPhone": "9899900011",
+            "companyEmail": "contact@thetagroup.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 10000,
+            "maintenanceCost": 1000,
+            "securityDeposit": 20000,
+            "advancePayment": 5000
+          }
+        },
+        {
+          "id": 12,
+          "floorNo": 3,
+          "roomNumber": "303",
+          "isActive": true,
+          "isAvailable": true,
+          "roomTypeId": 2,
+          "assignment": null,
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 3000,
+            "maintenanceCost": 100,
+            "securityDeposit": 450,
+            "advancePayment": null
+          }
+        },
+        {
+          "id": 13,
+          "floorNo": 3,
+          "roomNumber": "304",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Iota Ventures",
+            "companyPhone": "9800011122",
+            "companyEmail": "info@iotaventures.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 2000,
+            "maintenanceCost": 50,
+            "securityDeposit": 300,
+            "advancePayment": 1000
+          }
+        },
+        {
+          "id": 14,
+          "floorNo": 3,
+          "roomNumber": "305",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "Kappa Technologies",
+            "companyPhone": "9811122233",
+            "companyEmail": "contact@kappatech.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 15000,
+            "maintenanceCost": 1500,
+            "securityDeposit": 30000,
+            "advancePayment": 7500
+          }
+        },
+        {
+          "id": 15,
+          "floorNo": 3,
+          "roomNumber": "306",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 2,
+          "assignment": {
+            "companyName": "Lambda Systems",
+            "companyPhone": "9822233344",
+            "companyEmail": "info@lambdasystems.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 12000,
+            "maintenanceCost": 1200,
+            "securityDeposit": 25000,
+            "advancePayment": 6000
+          }
+        }
+      ],
+      "id": "a6d7"
+    },
+    {
+      "floorNo": 4,
+      "noOfRooms": 4,
+      "roomDto": [
+        {
+          "id": 16,
+          "floorNo": 4,
+          "roomNumber": "401",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Mu Enterprises",
+            "companyPhone": "9833344455",
+            "companyEmail": "contact@muenterprise.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 25000,
+            "maintenanceCost": 2500,
+            "securityDeposit": 50000,
+            "advancePayment": 12500
+          }
+        },
+        {
+          "id": 17,
+          "floorNo": 4,
+          "roomNumber": "402",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Nu Digital",
+            "companyPhone": "9844455566",
+            "companyEmail": "info@nudigital.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": 102,
+            "rentPrice": 18000,
+            "maintenanceCost": 1800,
+            "securityDeposit": 35000,
+            "advancePayment": 9000
+          }
+        },
+        {
+          "id": 18,
+          "floorNo": 4,
+          "roomNumber": "403",
+          "isActive": true,
+          "isAvailable": true,
+          "roomTypeId": 1,
+          "assignment": null,
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 15000,
+            "maintenanceCost": 1500,
+            "securityDeposit": 30000,
+            "advancePayment": 7500
+          }
+        },
+        {
+          "id": 19,
+          "floorNo": 4,
+          "roomNumber": "404",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 2,
+          "assignment": {
+            "companyName": "Xi Solutions",
+            "companyPhone": "9855566677",
+            "companyEmail": "contact@xisolutions.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 12000,
+            "maintenanceCost": 1200,
+            "securityDeposit": 25000,
+            "advancePayment": 6000
+          }
+        }
+      ],
+      "id": "8b28"
+    },
+    {
+      "floorNo": 5,
+      "noOfRooms": 5,
+      "roomDto": [
+        {
+          "id": 20,
+          "floorNo": 5,
+          "roomNumber": "501",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "Omicron Tech",
+            "companyPhone": "9866677788",
+            "companyEmail": "info@omicrontech.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 10000,
+            "maintenanceCost": 1000,
+            "securityDeposit": 20000,
+            "advancePayment": 5000
+          }
+        },
+        {
+          "id": 21,
+          "floorNo": 5,
+          "roomNumber": "502",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 2,
+          "assignment": {
+            "companyName": "Pi Innovations",
+            "companyPhone": "9877788899",
+            "companyEmail": "contact@piinnovations.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 3000,
+            "maintenanceCost": 100,
+            "securityDeposit": 450,
+            "advancePayment": null
+          }
+        },
+        {
+          "id": 22,
+          "floorNo": 5,
+          "roomNumber": "503",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Rho Systems",
+            "companyPhone": "9888899900",
+            "companyEmail": "info@rhosystems.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 2000,
+            "maintenanceCost": 50,
+            "securityDeposit": 300,
+            "advancePayment": 1000
+          }
+        },
+        {
+          "id": 23,
+          "floorNo": 5,
+          "roomNumber": "504",
+          "isActive": true,
+          "isAvailable": true,
+          "roomTypeId": 2,
+          "assignment": null,
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 12000,
+            "maintenanceCost": 1200,
+            "securityDeposit": 25000,
+            "advancePayment": 6000
+          }
+        },
+        {
+          "id": 24,
+          "floorNo": 5,
+          "roomNumber": "505",
+          "isActive": false,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "Sigma Analytics",
+            "companyPhone": "9899900011",
+            "companyEmail": "contact@sigmaanalytics.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 15000,
+            "maintenanceCost": 1500,
+            "securityDeposit": 30000,
+            "advancePayment": 7500
+          }
+        }
+      ],
+      "id": "6b79"
+    },
+    {
+      "floorNo": 6,
+      "noOfRooms": 6,
+      "roomDto": [
+        {
+          "id": 25,
+          "floorNo": 6,
+          "roomNumber": "601",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Tau Industries",
+            "companyPhone": "9800011122",
+            "companyEmail": "info@tauindustries.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": 103,
+            "rentPrice": 18000,
+            "maintenanceCost": 1800,
+            "securityDeposit": 35000,
+            "advancePayment": 9000
+          }
+        },
+        {
+          "id": 26,
+          "floorNo": 6,
+          "roomNumber": "602",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Upsilon Technologies",
+            "companyPhone": "9811122233",
+            "companyEmail": "contact@upsilontech.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 25000,
+            "maintenanceCost": 2500,
+            "securityDeposit": 50000,
+            "advancePayment": 12500
+          }
+        },
+        {
+          "id": 27,
+          "floorNo": 6,
+          "roomNumber": "603",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "Phi Corp",
+            "companyPhone": "9822233344",
+            "companyEmail": "info@phicorp.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 10000,
+            "maintenanceCost": 1000,
+            "securityDeposit": 20000,
+            "advancePayment": 5000
+          }
+        },
+        {
+          "id": 28,
+          "floorNo": 6,
+          "roomNumber": "604",
+          "isActive": true,
+          "isAvailable": true,
+          "roomTypeId": 2,
+          "assignment": null,
+          "roomTypeDto": {
+            "id": 2,
+            "name": "duplex",
+            "companyId": null,
+            "rentPrice": 3000,
+            "maintenanceCost": 100,
+            "securityDeposit": 450,
+            "advancePayment": null
+          }
+        },
+        {
+          "id": 29,
+          "floorNo": 6,
+          "roomNumber": "605",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 1,
+          "assignment": {
+            "companyName": "Chi Solutions",
+            "companyPhone": "9833344455",
+            "companyEmail": "contact@chisolutions.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 1,
+            "name": "super",
+            "companyId": null,
+            "rentPrice": 15000,
+            "maintenanceCost": 1500,
+            "securityDeposit": 30000,
+            "advancePayment": 7500
+          }
+        },
+        {
+          "id": 30,
+          "floorNo": 6,
+          "roomNumber": "606",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Psi Analytics",
+            "companyPhone": "9844455566",
+            "companyEmail": "info@psianalytics.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 22000,
+            "maintenanceCost": 2200,
+            "securityDeposit": 45000,
+            "advancePayment": 11000
+          }
+        }
+      ],
+      "id": "e63c"
+    },
+    {
+      "floorNo": 7,
+      "noOfRooms": 3,
+      "roomDto": [
+        {
+          "id": 31,
+          "floorNo": 7,
+          "roomNumber": "701",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Omega Innovations",
+            "companyPhone": "9855566677",
+            "companyEmail": "contact@omegainnovations.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 25000,
+            "maintenanceCost": 2500,
+            "securityDeposit": 50000,
+            "advancePayment": 12500
+          }
+        },
+        {
+          "id": 32,
+          "floorNo": 7,
+          "roomNumber": "702",
+          "isActive": true,
+          "isAvailable": true,
+          "roomTypeId": 3,
+          "assignment": null,
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": null,
+            "rentPrice": 22000,
+            "maintenanceCost": 2200,
+            "securityDeposit": 45000,
+            "advancePayment": 11000
+          }
+        },
+        {
+          "id": 33,
+          "floorNo": 7,
+          "roomNumber": "703",
+          "isActive": true,
+          "isAvailable": false,
+          "roomTypeId": 3,
+          "assignment": {
+            "companyName": "Vertex Global",
+            "companyPhone": "9866677788",
+            "companyEmail": "info@vertexglobal.com",
+            "fromDate": "2024-04-01",
+            "toDate": "2024-05-01"
+          },
+          "roomTypeDto": {
+            "id": 3,
+            "name": "super-duplex",
+            "companyId": 104,
+            "rentPrice": 35000,
+            "maintenanceCost": 3500,
+            "securityDeposit": 70000,
+            "advancePayment": 17500
+          }
+        }
+      ],
+      "id": "2484"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "9537",
+      "roomId": 3,
+      "floorNo": 1,
+      "clientName": "xyz",
+      "phone": "7894561234",
+      "email": "xyz@gmail.com",
+      "fromDate": "2025-05-01",
+      "toDate": "2025-05-30",
+      "paymentType": "MONTHLY"
+    }
+  ],
+  "rent": [
+    {
+      "roomGroup": ["101","102"],
+      "companyName": "TCS",
+      "email": "hr@tcs.com",
+      "phone": "9876543210",
+      "dueAmount": 1000,
+      "overdueAmount": 0
+    },
+    {
+      "roomGroup": ["201"],
+      "companyName": "Infosys",
+      "email": "info@infosys.com",
+      "phone": "9988776655",
+      "dueAmount": 0,
+      "overdueAmount": 1500
+    }
+  ]
+}
